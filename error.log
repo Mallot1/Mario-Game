@@ -224,7 +224,11 @@ NotificationManager>>runPendingEvents
 NotificationManager>>runEventLoop
 
 
+<<<<<<< HEAD
 Error log timestamp Saturday 03/22/14 10:23:47 PM
+=======
+Error log timestamp Saturday 03/22/14 10:22:13 PM
+>>>>>>> f9837e157ad38ece6b8aa0566b424a6ba648a7e1
 
 Runtime error: "iniFilename" not understood
 
@@ -267,6 +271,7 @@ ExceptionHandler>>activateDuring: <aBlockClosure>
 ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
 BlockClosure>>on: <anError class> do: <aBlockClosure> 
 Basic class>>saveSetup
+<<<<<<< HEAD
 BasicSourceWindow>>addRecentFile: <'C:\Users\Roboman7\Do...'> 
 BasicSourceWindow>>openFileNamed: <'C:\Users\Roboman7\Do...'> 
 Basic class>>start
@@ -381,6 +386,10 @@ BlockClosure>>on: <anError class> do: <aBlockClosure>
 Basic class>>saveSetup
 BasicSourceWindow>>addRecentFile: <'C:\Users\Roboman7\Do...'> 
 BasicSourceWindow>>openFileNamed: <'C:\Users\Roboman7\Do...'> 
+=======
+BasicSourceWindow>>addRecentFile: <'C:\Users\Daniel\Docu...'> 
+BasicSourceWindow>>openFileNamed: <'C:\Users\Daniel\Docu...'> 
+>>>>>>> f9837e157ad38ece6b8aa0566b424a6ba648a7e1
 Basic class>>start
 [] in SessionModel>>startBasic
 ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
