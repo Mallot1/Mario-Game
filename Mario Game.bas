@@ -5,9 +5,9 @@ WindowWidth=500 'set windowwidth to 500
 WindowHeight=500'set windowheight to 500
 UpperLeftX=300'set upperleftx coordinate for
 UpperLeftY=100
-marioX = 0
-marioY = WindowHeight-100
-loadbmp "bg", "media\bg.bmp"
+marioX = 300
+marioY = WindowHeight- 162
+loadbmp "bg", "media\background.bmp"
 loadbmp "mario", "sprites\mariosprite.bmp"
 
 open "Mario Game" for graphics_nsb_nf as #game
