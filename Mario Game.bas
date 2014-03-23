@@ -1,6 +1,12 @@
-WIndowHeight = DisplayHeight
-WindowWidth  = DisplayWidth
-nomainwin
-loadbmp "mario"; "mariosprites.bmp"
 
-"mariogame" for grahpical_nsb_nf as #game
+'Hi sam!
+nomainwin 'set the screen to nomainwin
+WindowWidth=500 'set windowwidth to 500
+WindowHeight=500;'set windowheight to 500
+UpperLeftX=300'set upperleftx coordinate for 
+UpperLeftY=100
+open "Mario Game" for graphics_nsb_nf as #game
+print #game, "trapclose [quit]"
+wait
+
+[quit]close #game: end
