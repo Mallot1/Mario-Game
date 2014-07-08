@@ -1,5 +1,4 @@
 
-'Hi sam!
 nomainwin 'set the screen to nomainwin
 WindowWidth=500 'set windowwidth to 500
 WindowHeight=500'set windowheight to 500
